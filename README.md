@@ -14,14 +14,7 @@ Ce mini projet est le resultat de la formation sur docker du bootcamp DevOps ses
 #### Création du dockerfile
 > 
 
-Dans le dossier simple-api se trouve le Dockerfile de la creation de l'image de l'api .
-> FROM python:3.8-buster
-LABEL name="Sidiki"
-RUN apt update -y && apt install python-dev python3-dev libsasl2-dev python-dev libldap2-dev libssl-dev -y
-COPY ./requirements.txt ./student_age.py /
-RUN pip3 install -r /requirements.txt
-EXPOSE 5000
-CMD [ "python", "./student_age.py" ]
+Dans le dossier simple-api se trouve le Dockerfile de la creation de l'image de l'api .[ici](https://github.com/CoolZie/student-list-master/blob/main/simple_api/Dockerfile)
 
 
 #### Build et run de l'image api pour test 
